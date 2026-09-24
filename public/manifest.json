@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "MeetFlow AI - Meeting Intelligence",
+  "short_name": "MeetFlow AI",
+  "description": "3D AI-Powered Meeting Intelligence System with speech transcription, vector search, and RAG chat assistant.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FAF6EE",
+  "theme_color": "#B88037",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

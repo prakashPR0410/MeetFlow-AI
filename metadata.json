@@ -1,0 +1,6 @@
+{
+  "name": "AI Meeting Intelligence System",
+  "description": "3D AI-Powered Meeting Intelligence System with Python backend code integration, speech transcription, vector search, RAG chat assistant, and cream tactile UI.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

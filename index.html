@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Meeting Intelligence System</title>
+    <meta name="description" content="3D AI-Powered Meeting Intelligence System with Python backend code integration, speech transcription, vector search, RAG chat assistant, and cream tactile UI." />
+    <meta property="og:title" content="AI Meeting Intelligence System" />
+    <meta property="og:description" content="3D AI-Powered Meeting Intelligence System with Python backend code integration, speech transcription, vector search, RAG chat assistant, and cream tactile UI." />
+    <meta name="theme-color" content="#B88037" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="MeetFlow AI" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/icon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
